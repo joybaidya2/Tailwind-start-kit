@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Start Kit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="bg-white w-full sticky shadow-md top-0 z-50">
+        <!-- Navbar -->
+        <nav class="flex justify-between px-10 py-4 items-center">
+            <div class="font-bold text-pink-500 text-2xl">
+                <h1>TAILDWIND START KIT</h1>
+            </div>
+            <!--Here the Navigation Menu -->
+            <div id="menu"
+                class="hidden flex-col lg:flex lg:flex-row lg:space-x-6 bg-white  mt-8 absolute left-0 right-0 top-8 lg:static lg:mt-0 lg:w-auto lg:bg-transparent lg:items-center shadow-lg lg:shadow-none ">
+                <ul class="flex flex-col lg:flex-row lg:space-x-6 text-zinc-700 space-y-4 lg:space-y-0 p-6 lg:p-0">
+                    <li><a href="" class="hover:text-purple-700"></a></li>
+                    <li><a class="border px-3 py-1 rounded-md font-semibold text-sm " href="#solution"
+                            class="hover:text-purple-700"><i class="fa-solid fa-gem text-gray-400"></i> PRO VERSION
+                            <span class="pl-2 bg-red-500 px-2 text-white rounded-xl">NEW</span></a></li>
+                    <li><a href="#reviews" class="hover:text-purple-700 font-semibold text-sm"><i
+                                class="fa-solid fa-arrow-down mr-2 px-2 py-1 rounded-full bg-slate-400 text-white"></i>
+                            DOWNLOAD</a></li>
+                    <li class="font-semibold">
+                        <a href="#" class="hover:text-purple-700 font-semibold text-sm"><i
+                                class="fa-regular fa-file mr-2 text-lg"></i>DOCS
+                        </a>
+                    </li>
+                    <li
+                        class="text-gray-400 text-xl lg:space-x-4 space-y-4 flex flex-col lg:flex-row lg:space-y-0 pt-1">
+                        <i class="fa-brands fa-square-facebook cursor-pointer"></i>
+                        <i class="fa-brands fa-twitter cursor-pointer"></i>
+                        <i class="fa-brands fa-github cursor-pointer"></i>
+                    </li>
+                </ul>
+            </div>
+            <!--This is the Mobile Menu Icon -->
+            <div id="menu-toggle" class="text-3xl cursor-pointer lg:hidden">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <!--Here is the main body section-->
+    <main>
+        <div class="grid md:grid-cols-2">
+            <div class="mx-8 my-8">
+                <h1 class="text-3xl md:text-5xl font-semibold mt-10 text-zinc-600">A beautiful extension for
+                    TailwindCSS.</h1>
+                <p class="mt-8 text-lg text-zinc-500 font-bold">Tailwind Starter Kit is Free and Open Source. It does
+                    not change or add any CSS to the already one from TailwindCSS. It features multiple HTML elements
+                    and it comes with dynamic components for ReactJS, Vue and Angular.</p>
+                <div class="mt-8 ">
+                    <button class="py-4 px-4 bg-pink-500 text-white font-bold rounded-md">GET STARTED</button>
+                    <button class="py-4 px-4 bg-gray-700 text-white font-bold rounded-md">GITHUB STAR</button>
+                </div>
+            </div>
+            <div>
+                <img class="md:h-[550px] h-[350px]  w-full px-8"
+                    src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/ill_header_3.png"
+                    alt="Image">
+            </div>
+        </div>
+    </main>
+    <!--Here is the card section.-->
+    <section class="bg-sky-50">
+        <div class="grid md:grid-cols-2 lg:max-w-7xl lg:mx-auto    mx-8 gap-9">
+            <div class="lg:-mt-16  mt-4 lg:mx-32">
+                <img class="rounded-t-lg "
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                    alt="Computer image">
+                <div class="bg-pink-600 p-7 text-white rounded-b-lg">
+                    <h1 class="font-bold text-xl pb-4">Great for your awesome project</h1>
+                    <p>Putting together a page has never been easier than matching together pre-made components. From
+                        landing pages presentation to login areas, you can easily customise and built your pages.</p>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 mt-16  gap-10 pb-10 mx-10 sm:mx-20 md:pl-0 md:ml-0">
+                <div class="space-y-4">
+                    <p><i class="fa-brands fa-css3 bg-white px-3 py-2 text-2xl text-zinc-500 rounded-full"></i></p>
+                    <h1 class="font-bold text-xl text-zinc-700">CSS Components</h1>
+                    <p class="text-zinc-500">Tailwind Starter Kit comes with a huge number of Fully Coded CSS
+                        components.</p>
+                </div>
+                <div class="space-y-4">
+                    <p><i <i
+                            class="fa-solid fa-layer-group bg-white px-3 py-2 text-2xl text-zinc-500 rounded-full"></i></i>
+                    </p>
+                    <h1 class="font-bold text-xl text-zinc-700">Pages</h1>
+                    <p class="text-zinc-500">This extension also comes with 3 sample pages. They are fully coded so you
+                        can start working instantly.</p>
+                </div>
+                <div class="space-y-4">
+                    <p><i class="fa-brands fa-js bg-white px-3 py-2 text-2xl text-zinc-500 rounded-full"></i></p>
+                    <h1 class="font-bold text-xl text-zinc-700">JavaScript Components</h1>
+                    <p class="text-zinc-500">We also feature many dynamic components for React, Vue and Angular.</p>
+                </div>
+                <div class="space-y-4">
+                    <p><i class="fa-solid fa-book bg-white px-3 py-2 text-2xl text-zinc-500 rounded-full"></i></p>
+                    <h1 class="font-bold text-xl text-zinc-700">Documentation</h1>
+                    <p class="text-zinc-500">Built by developers for developers. You will love how easy is to to work
+                        with Tailwind Starter Kit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="pt-32 pb-10 grid lg:grid-cols-2 lg:max-w-6xl lg:mx-auto mx-10 ">
+            <div class="md:mr-32 space-y-7 mx-10">
+                <p><i class="fa-brands fa-css3 bg-white px-3 py-2 text-2xl text-zinc-800 rounded-full"></i></p>
+                <h1 class="font-bold text-3xl text-zinc-800">CSS Components</h1>
+                <p class="pb-6 text-lg text-zinc-600">Every element that you need in a product comes built in as a
+                    component. All components fit perfectly with each other and can have different colours.</p>
+                <span class="space-x-2 space-y-2 ">
+                    <button class="text-xs bg-white px-2 py-1 rounded-xl font-medium text-zinc-500">BUTTON</button>
+                    <button class="text-xs bg-white px-2 py-1 rounded-xl font-medium text-zinc-500">INPUTS</button>
+                    <button class="text-xs bg-white px-2 py-1 rounded-xl font-medium text-zinc-500">LABLES</button>
+                    <button class="text-xs bg-white px-2 py-1 rounded-xl font-medium text-zinc-500">MENUS</button>
+                    <button class="text-xs bg-white px-2 py-1 rounded-xl font-medium text-zinc-500">NAVBARS</button>
+                    <button class="text-xs bg-white px-2 py-1 rounded-xl font-medium text-zinc-500">PAGINATION</button>
+                    <button class="text-xs bg-white px-2 py-1 rounded-xl font-medium text-zinc-500">PAGINATION</button>
+                    <button class="text-xs bg-white px-2 py-1 rounded-xl font-medium text-zinc-500">TYPOGRAPHY</button>
+                </span>
+                <p class="font-bold text-lg text-zinc-800">View All >></p>
+            </div>
+            <div>
+                <div class="grid grid-cols-3 gap-8 mt-32 md:mt-32">
+                    <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/component-info-card.png"
+                        alt="">
+                    <img class="-mt-20"
+                        src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/component-profile-card.png"
+                        alt="">
+                    <img class="mt-16"
+                        src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/component-info-2.png"
+                        alt="">
+                    <img class="-mt-16 h-10 pl-16"
+                        src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/component-btn.png"
+                        alt="">
+                    <img class="h-10 -mt-20 pl-6"
+                        src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/component-btn-pink.png"
+                        alt="">
+                </div>
+                <div>
+                    <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/component-menu.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Here the the program language-->
+    <section>
+        <div class="grid lg:grid-cols-2 lg:max-w-6xl lg:mx-auto   sm:mx-12 mt-20">
+            <div class="grid lg:grid-cols-2 gap-6 mx-8">
+                <div class="bg-blue-500 justify-items-center text-center p-10 space-y-4 rounded-xl lg:mb-8">
+                    <img class="rounded-full h-20"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+                        alt="React js image">
+                    <h1 class="font-bold text-white text-lg">ReactJs</h1>
+                    <p class="text-zinc-200">A JavaScript library for building user interfaces maintaned by Facebook and
+                        community of developers</p>
+                </div>
+                <div class="bg-orange-500 justify-items-center text-center p-10 space-y-4 rounded-xl lg:mt-16">
+                    <img class="rounded-full h-20"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                        alt="Javascript image">
+                    <h1 class="font-bold text-white text-lg">JavaScript</h1>
+                    <p class="text-zinc-200">Object-oriented programming language that conforms to the ECMAScript
+                        specification.</p>
+                </div>
+                <div class="bg-emerald-500 justify-items-center text-center p-10 space-y-4 rounded-xl lg:-mt-8">
+                    <img class="rounded-full h-20"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                        alt="">
+                    <h1 class="font-bold text-white text-lg">Vue,js</h1>
+                    <p class="text-zinc-200">An open-source Model–view–viewmodel JavaScript framework for building user
+                        interfaces.</p>
+                </div>
+                <div class="bg-red-600 justify-items-center text-center p-10 space-y-4 rounded-xl ">
+                    <img class="rounded-full h-20"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                        alt="">
+                    <h1 class="font-bold text-white text-lg">Angular</h1>
+                    <p class="text-zinc-200">A JavaScript-based open-source front-end web framework mainly maintained by
+                        Google.</p>
+                </div>
+            </div>
+            <div class="md:ml-32 mt-36 mx-6 space-y-7">
+                <p><i class="fa-brands fa-css3 bg-teal-200 text-red-600 px-4 py-3 text-4xl rounded-full"></i></p>
+                <h1 class="font-bold text-3xl text-orange-700">Javascript Components</h1>
+                <p class=" text-lg text-zinc-800">In order to create a great User Experience some components require
+                    JavaScript. In this way you can manipulate the elements on the page and give more options to your
+                    users.</p>
+                <p class="pb-6 text-lg text-zinc-800">We created a set of Components that are dynamic and come to help
+                    you.</p>
+                <span class="space-x-2 space-y-2 ">
+                    <button class="text-xs bg-gray-300 text-black px-2 py-1 rounded-xl font-medium ">BUTTON</button>
+                    <button class="text-xs bg-gray-300 text-black px-2 py-1 rounded-xl font-medium ">INPUTS</button>
+                    <button class="text-xs bg-gray-300 text-black px-2 py-1 rounded-xl font-medium ">LABLES</button>
+                    <button class="text-xs bg-gray-300 text-black px-2 py-1 rounded-xl font-medium ">MENUS</button>
+                    <button class="text-xs bg-gray-300 text-black px-2 py-1 rounded-xl font-medium ">NAVBARS</button>
+                    <button class="text-xs bg-gray-300 text-black px-2 py-1 rounded-xl font-medium ">PAGINATION</button>
+                    <button class="text-xs bg-gray-300 text-black px-2 py-1 rounded-xl font-medium ">PAGINATION</button>
+                    <button class="text-xs bg-gray-300 text-black px-2 py-1 rounded-xl font-medium">TYPOGRAPHY</button>
+                </span>
+                <p class="font-bold text-lg text-zinc-800">View All >></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid lg:grid-cols-2 mx-10 md:mx-16 lg:max-w-6xl lg:mx-auto mt-24">
+            <div class="mt-16 space-y-6 mx-8 lg:mr-16">
+                <h1 class="font-bold md:text-3xl text-2xl text-orange-600 ">Complex Documentation</h1>
+                <p class="text-lg opacity-75">This extension comes a lot of fully coded examples that help you get
+                    started faster. You can adjust the colors and also the programming language. You can change the text
+                    and images and you're good to go.</p>
+                <div class="space-y-4">
+                    <p class="text-gray-600 font-medium"><i
+                            class="fa-solid fa-poo bg-teal-50 p-1 rounded-full text-red-500 mr-5"></i>Built by
+                        Developers for Developers</p>
+                    <p class="text-gray-600 font-medium"><i
+                            class="fa-brands fa-js bg-teal-50 p-1 rounded-full text-red-500 mr-5"></i>Carefully crafted
+                        code for Components</p>
+                    <p class="text-gray-600 font-medium"><i
+                            class="fa-solid fa-plane-slash bg-teal-50 p-1 rounded-full text-red-500 mr-4"></i>Dynamic
+                        Javascript Components</p>
+                </div>
+            </div>
+            <div>
+                <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/documentation.png"
+                    alt="Computer program image">
+            </div>
+        </div>
+    </section>
+    <!--Here is the example page-->
+    <section class="bg-slate-100 pb-48">
+        <div class="lg:max-w-xl lg:mx-auto text-center mt-20 mx-8  pt-12">
+            <h1 class="font-bold text-3xl pb-5">Beautiful Example Pages</h1>
+            <p class="text-lg opacity-65">Tailwind Starter Kit is a completly new product built using our past
+                experience in web templates. Take the examples we made for you and start playing with them.</p>
+        </div>
+    </section>
+    <section class="bg-gray-600 pb-72">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 lg:max-w-7xl lg:mx-auto  gap-6  px-8">
+            <div class="text-center -mt-28 hover:-mt-36 ease-linear transition-all duration-150 mb-28">
+                <h1 class="font-bold text-xl opacity-75 pb-5">Login Page</h1>
+                <img class="rounded-lg"
+                    src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/login.jpg"
+                    alt="Login page image">
+            </div>
+            <div class="text-center -mt-28 hover:-mt-36 ease-linear transition-all duration-150 mb-28">
+                <h1 class="font-bold text-xl opacity-75 pb-5">Profile Page</h1>
+                <img class="rounded-lg"
+                    src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/profile.jpg"
+                    alt="Profile image">
+            </div>
+            <div class="text-center -mt-28  hover:-mt-36 ease-linear transition-all duration-150 ">
+                <h1 class="font-bold text-xl opacity-75 pb-5 ">Landing Page</h1>
+                <img class="rounded-lg" class="r"
+                    src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/landing.jpg"
+                    alt="landing image">
+            </div>
+        </div>
+        <div class="grid lg:grid-cols-2 lg:max-w-6xl lg:mx-auto mx-8">
+            <div class="mt-32 space-y-6 mr-12 mx-8">
+                <h1 class="text-white font-bold text-4xl">
+                    Open Source
+                </h1>
+                <p class="text-white opacity-75">Since <b>TailwindCSS</b> is an open source project we wanted to
+                    continue this movement too. You can give this version a try to feel the design and also test the
+                    quality of the code!</p>
+                <p class="text-white opacity-75"> Get it free on Github and please help us spread the news with a Star!
+                </p>
+                <button class="px-6 py-4 bg-gray-800 text-white font-bold rounded-xl">GITHUB START</button>
+            </div>
+            <div class="mt-20 mx-8">
+                <img class="rounded-xl "
+                    src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2dyYW1taW5nfGVufDB8fDB8fHww"
+                    alt="Programing image">
+            </div>
+        </div>
+    </section>
+   <section>
+        <div class="-mt-28 rounded-lg bg-white shadow-lg mx-4 pt-16 pb-12">
+            <div class="text-center max-w-2xl mx-auto">
+                <p class="text-4xl">😍</p>
+                <h1 class="font-bold text-2xl md:text-3xl pb-4">Do you love this Starter Kit?</h1>
+                <p class="md:text-lg lg:text-lg opacity-70 font-medium pb-7 px-3">Cause if you do, it can be yours now. Hit the buttons below to navigate to get the Free version for your next project. Build a new web app or give an old project a new look!</p>
+                <div class="text-white space-x-3">
+                    <button class="font-bold bg-pink-500 px-5 py-3 rounded-lg">GET STARTED</button>
+                    <button class="font-bold bg-gray-700 px-5 py-3 rounded-lg"><i class="fa-brands fa-github"></i> HELP WITH A STAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-200 pb">
+        <div class="grid md:grid-cols-2 pt-20 mx-12 pb-4">
+            <div>
+                <h1 class="font-bold text-4xl opacity-75">Let's keep in touch!</h1>
+                <p class="text-xl opacity-75 pb-8">Find us on any of these platforms, we respond 1-2 business days.</p>
+                <span class="space-x-3">
+                    <i class="fa-brands fa-twitter bg-white px-3 py-2 rounded-full text-sky-400 text-xl"></i>
+                    <i class="fa-brands fa-facebook bg-white px-3 py-2 rounded-full text-sky-700 text-xl"></i>
+                    <i class="fa fa-globe bg-white px-3 py-2 rounded-full text-red-400 text-xl"></i>
+                    <i class="fa-brands fa-github bg-white px-3 py-2 rounded-full text-xl"></i>
+                </span>
+                <p class="text-sm opacity-75 pt-5">Currently v1.1.0. Code licensed MIT, docs CC BY 4.0.</p>
+            </div>
+            <div class="grid grid-cols-2 mt-4">
+                <div>
+                    <p class="font-semibold text-zinc-600 text-lg pb-2 ">Useful Links</p>
+                <ul class="space-y-2 font-semibold text-zinc-700">
+                    <li> <a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Free Product</a></li>
+                </ul> 
+                </div>
+                <div>
+                    <p class="font-semibold text-zinc-600 text-lg pb-2 ">Other Resources</p>
+                    <ul class="space-y-2 font-semibold text-zinc-700">
+                        <li><a href="#">MIT License</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>  
+                </div>   
+            </div>
+        </div><hr class="border-gray-400 my-2">
+        <div class="pb-4">
+            <h1 class="font-bold text-xl text-center text-gray-700">&copy;Developed by Joy 2024 Tailwind</h1>
+        </div>
+    </footer>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>
